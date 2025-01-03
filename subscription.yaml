@@ -15,22 +15,22 @@ proxies:
       headers:
         Host: id1.ubaistore.my.id
     udp: true
-  - name: 9 🇸🇬 HUAWEI INTERNATIONAL PTE. LTD. WS TLS [notx]
-    server: quiz.video.com
+  - name: 9 🇸🇬 HUAWEI
+    server: 104.22.4.240
     port: 443
     type: vless
     uuid: 8b4b3910-fe05-439f-b446-66557fae2cdb
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: quiz.video.com.wilo.luckystup-id.xyz
+    servername: wilo.luckystup-id.xyz
     network: ws
     ws-opts:
       path: /166.108.233.26-443
       headers:
-        Host: quiz.video.com.wilo.luckystup-id.xyz
+        Host: wilo.luckystup-id.xyz
     udp: true
-  - name: id0
+  - name: id11
     server: 104.22.4.240
     port: 443
     type: vless
@@ -45,7 +45,7 @@ proxies:
       headers:
         Host: nautica.foolvpn.me
     udp: true
-  - name: ID 1
+  - name: ID12
     server: 104.22.4.240
     port: 443
     type: vless
@@ -60,7 +60,7 @@ proxies:
       headers:
         Host: vltr.vpnoir9r.us.kg
     udp: true
-  - name: ID 2
+  - name: ID13
     server: 172.67.5.14
     port: 443
     type: vless
@@ -75,7 +75,7 @@ proxies:
       headers:
         Host: vltr.vpnoir9r.us.kg
     udp: true
-  - name: video
+  - name: video1
     server: 104.22.4.240
     port: 443
     type: vless
@@ -90,7 +90,7 @@ proxies:
       headers:
         Host: nautica.foolvpn.me
     udp: true
-  - name: Trojan UDP
+  - name: Trojan UDP2
     server: 172.67.5.14
     port: 443
     type: trojan
