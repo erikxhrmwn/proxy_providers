@@ -1,0 +1,92 @@
+proxies:
+  - name: trial69103Y6
+    server: 104.22.4.240
+    port: 443
+    type: vmess
+    uuid: cf4d6ad1-a8c1-4c36-94d2-0a3e4a1b2aef
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: id1.ubaistore.my.id
+    network: ws
+    ws-opts:
+      path: /vmessws
+      headers:
+        Host: id1.ubaistore.my.id
+    udp: true
+  - name: 9 🇸🇬 HUAWEI INTERNATIONAL PTE. LTD. WS TLS [notx]
+    server: 104.22.4.240
+    port: 443
+    type: vless
+    uuid: 8b4b3910-fe05-439f-b446-66557fae2cdb
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: wilo.luckystup-id.xyz
+    network: ws
+    ws-opts:
+      path: /166.108.233.26-443
+      headers:
+        Host: wilo.luckystup-id.xyz
+    udp: true
+  - name: id0
+    server: 104.22.4.240
+    port: 443
+    type: vless
+    uuid: 067e56c9-1ece-4921-a483-5a7cd90fb44d
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: nautica.foolvpn.me
+    network: ws
+    ws-opts:
+      path: /103.133.223.52-2096
+      headers:
+        Host: nautica.foolvpn.me
+    udp: true
+  - name: ID 1
+    server: 104.22.4.240
+    port: 443
+    type: vless
+    uuid: 82d67d98-e665-43d7-a234-84bf129e03cc
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: vltr.vpnoir9r.us.kg
+    network: ws
+    ws-opts:
+      path: /vl=103.168.146.169:20132
+      headers:
+        Host: vltr.vpnoir9r.us.kg
+    udp: true
+  - name: ID 2
+    server: 172.67.5.14
+    port: 443
+    type: vless
+    uuid: 82d67d98-e665-43d7-a234-84bf129e03cc
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: vltr.vpnoir9r.us.kg
+    network: ws
+    ws-opts:
+      path: /vl=103.168.146.169:20132
+      headers:
+        Host: vltr.vpnoir9r.us.kg
+    udp: true
+  - name: video
+    server: 104.22.4.240
+    port: 443
+    type: vless
+    uuid: cfccf07e-011d-4bb2-99c1-0780d127e792
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: nautica.foolvpn.me
+    network: ws
+    ws-opts:
+      path: /103.133.223.52-2096
+      headers:
+        Host: nautica.foolvpn.me
+    udp: true
