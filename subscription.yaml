@@ -103,3 +103,19 @@ proxies:
       headers:
         Host: id1.foolvpn.me
     udp: true
+  - name: 3722 🇸🇬 TENCENT CLOUD COMPUTING WS CDN TLS4
+    server: 104.22.4.240
+    port: 443
+    type: trojan
+    password: aac3afeb-8e78-44f3-86ce-58eef245b424
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+  - name: 7703 🇸🇬 ALIBABA WS CDN TLS
+    server: 104.22.4.240
+    port: 443
+    type: trojan
+    password: aac3afeb-8e78-44f3-86ce-58eef245b424
+    udp: true
+    skip-cert-verify: true
+    network: tcp
