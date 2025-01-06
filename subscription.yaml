@@ -3,17 +3,17 @@ proxies:
     server: 104.22.4.240
     port: 443
     type: vmess
-    uuid: cf4d6ad1-a8c1-4c36-94d2-0a3e4a1b2aef
+    uuid: ebd12d4b-4225-4835-827d-ca3bd2afada7
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: id1.ubaistore.my.id
+    servername: id2.foolvpn.me
     network: ws
     ws-opts:
       path: /vmessws
       headers:
-        Host: id1.ubaistore.my.id
+        Host: id2.foolvpn.me
     udp: true
   - name: 9 🇸🇬 HUAWEI
     server: 104.22.4.240
